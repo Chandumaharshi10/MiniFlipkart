@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'YOUR_GITHUB_REPO_URL'
+                git 'https://github.com/Chandumaharshi10/MiniFlipkart.git'
             }
         }
 
